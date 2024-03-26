@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBldGVyMUBmaXJzdC5jb20iLCJleHAiOjE3MTE0NzU5MTMsInVzZXJJZCI6MX0.dCLMl7lZvqUhcQqCPNa-40QWtw8TNxFFH9jtnjrvVhw
+
+{
+  "name": "Event1",
+  "description": "Peters event!!!",
+  "location": "Peters kitchen",
+  "dateTime": "2025-04-20T15:30:00.000Z"
+}
